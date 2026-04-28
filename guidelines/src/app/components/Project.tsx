@@ -51,7 +51,7 @@ export function Project() {
       </div>
 
       {/* Grid de fotos */}
-      <div className="w-full px-[24px]">
+      <div className="w-full ">
         <div className="flex flex-col gap-[16px] w-full max-w-[1280px] mx-auto items-center">
           <img alt="Project detail" className="w-full aspect-[720/480] object-cover" src={imgWhatsAppImage20260424At15024041} />
           

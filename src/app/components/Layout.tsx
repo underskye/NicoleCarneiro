@@ -12,7 +12,7 @@ export function Layout() {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center">
       <Header className={location.pathname === "/project" ? "shadow-md" : ""} />
-      <main className="w-full flex-1 max-w-[1280px] mx-auto">
+      <main className="w-full flex-1  mx-auto">
         <Outlet />
       </main>
     </div>
