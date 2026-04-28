@@ -1,0 +1,15 @@
+import { createBrowserRouter } from "react-router";
+import { Layout } from "./components/Layout";
+import { Homepage } from "./components/Homepage";
+import { Project } from "./components/Project";
+
+export const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      { index: true, element: <Homepage /> },
+      { path: "project", element: <Project /> },
+    ],
+  },
+]);
