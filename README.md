@@ -1,5 +1,5 @@
 
-  # Add Hover Navigation Effects
+  # Nicole Portfolio
 
   This is a code bundle for Add Hover Navigation Effects. The original project is available at https://www.figma.com/design/TI7bnuylRo1x40ATjk2wDO/Add-Hover-Navigation-Effects.
 
